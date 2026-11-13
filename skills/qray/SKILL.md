@@ -12,7 +12,7 @@ description: >-
 
 QRay makes **dynamic QR codes**: the printed code stays the same, and you can change where it sends people at any time. This skill lets an agent manage a user's QRay account through the `qray` CLI or the hosted MCP server.
 
-Using QRay from agents (CLI or MCP) requires purchased credits on the user's QRay account.
+Using QRay from agents (CLI or MCP) requires credits on the user's QRay account. Credit purchase is coming soon.
 
 ## When to use
 
@@ -86,7 +86,7 @@ Most operations consume credits from the user's QRay account. Checking the balan
 - Run `qray balance` / `get_balance` before loops or bulk work, and tell the user roughly what the batch will use.
 - Prefer one `list` call over many `get` calls.
 - Use multi-ID stats (`qray qrs stats id1 id2 …` / `batch_qr_stats`) instead of one call per QR.
-- If credits run out, tell the user and point them to the dashboard to top up. Don't retry in a loop.
+- If credits run out, tell the user and point them to the dashboard. Don't retry in a loop.
 
 ## Recipes
 

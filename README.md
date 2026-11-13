@@ -12,7 +12,7 @@ npx skills add yoshinaga2015/qray-skills
 
 ## Requirements
 
-- A QRay account with purchased credits (agent access via CLI/MCP uses credits)
+- A QRay account with credits (agent access via CLI/MCP uses credits; credit purchase is coming soon)
 - An API key created in the [QRay dashboard](https://qray.link/dashboard)
 - Node.js, for the `qray` CLI
 
